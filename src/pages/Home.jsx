@@ -20,7 +20,7 @@ const Home = () => {
 
 
   return (
-    <div className="container">
+    <div className="app-container">
       
       <Header alumno={alumno}/>
       <Main alumno={alumno}/>

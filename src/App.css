@@ -1,0 +1,78 @@
+/* Fondo general */
+.app-container {
+    background-color: #96a365; /* gris azulado muy suave */
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2e2e2e;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    color: #2e7d32; /* verde fuerte */
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+  }
+  
+  header hr {
+    width: 70%;
+    margin: 0 auto;
+    border: 1.5px solid #2e7d32;
+  }
+  
+  /* Main */
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Card */
+  .card {
+    background-color: #c0c3e0;
+    padding: 25px;
+    border: 2px solid #66bb6a; /* verde más claro */
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid #66bb6a;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+    color: #2e7d32;
+  }
+  
+  .card p {
+    font-size: 15px;
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #278130;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+  }
